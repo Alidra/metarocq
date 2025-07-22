@@ -3,9 +3,9 @@
   attribute = "metarocq";
   default-bundle = "rocq-9.0";
   bundles."rocq-9.0" = {
-    rocqPackages.rocq-core.override.version = "9.0";
-    rocqPackages.equations.override.version = "1.3.1-9.0";
-    push-branches = ["9.0"];
+    rocqPackages.rocq-core.override.version = "p9.0";
+    rocqPackages.equations.override.version = "p1.3.1-9.0";
+    push-branches = ["withnix1"];
   };
   cachix.coq = {};
   cachix.coq-community = {};
